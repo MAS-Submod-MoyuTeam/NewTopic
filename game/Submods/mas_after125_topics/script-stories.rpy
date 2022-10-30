@@ -40,4 +40,15 @@ init:
             m 1ekbla "这个故事提醒我要珍惜每一刻, 不要把我们在一起的任何时间都视为理所当然."
             m 1dkblu "我会永远珍惜你, [player]."
             return
-        
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_story_database,
+            eventlabel="mas_scary_story_prison_escape",
+            category=[store.mas_stories.TYPE_SCARY],
+            prompt="越狱",
+            unlocked=False
+        ),
+        code="STY"
+    )
