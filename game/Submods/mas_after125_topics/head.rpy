@@ -3,7 +3,7 @@ init -990 python:
         author="P",
         name="NewTopic",
         description="为<0.12.5版本提供新版本话题.",
-        version='1.23.0',
+        version='1.0.0',
         settings_pane="newtopic_setting_pane"
     )
 
