@@ -30,7 +30,7 @@ init 5 python:
         code="MOO"
     )
 
-label mas_mood_insecure:
+label mas_mood_loved:
     m 1ekbla "那我的心思就隔着屏幕传给你了..."
     m 3hubsb "毕竟我比什么都爱你!"
     if has_family and persistent._mas_pm_has_friends:

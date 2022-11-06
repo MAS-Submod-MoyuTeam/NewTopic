@@ -2,6 +2,7 @@ init -100 python in mas_sprites:
     EXP_C_WET = "wet"
     EXP_C_BRS = "bare-right-shoulder"
     EXP_H_WET = "wet"
+    EXP_C_C_DTS = "compat-downtiedstrand"
 init -2 python in mas_sprites:
     def _hair_wet_entry(_moni_chr, **kwargs):
         """
