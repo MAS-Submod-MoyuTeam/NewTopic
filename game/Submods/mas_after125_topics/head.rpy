@@ -24,11 +24,8 @@ init -995 python:
     DP_NEW_VERSION=['0', '12', '5']
     splitver = renpy.config.version.split('.')
     DP_CURR_VERSION = [splitver[0], splitver[1], splitver[2]]
-    p_is_old_ver = store.mas_utils.compareVersionLists(DP_CURR_VERSION, DP_NEW_VERSION) == -1
+    p_is_old_ver = True#store.mas_utils.compareVersionLists(DP_CURR_VERSION, DP_NEW_VERSION) == -1
     #-1 0 1
 
 screen newtopic_setting_pane():
-    if p_is_old_ver:
-        label "检测到为旧版本，功能正常启用"
-    else:
-        label "检测到为新版本，不进行加载"
+    pass
